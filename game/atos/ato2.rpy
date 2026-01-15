@@ -1,8 +1,8 @@
-define tel = character("Telmo")
-define M = character("Maria")
-define Ma = character("Madalena")
-define J = character("Jorge")
-define mu = character("Manule")
+define tel = Character("Telmo")
+define M = Character("Maria")
+define Ma = Character("Madalena")
+define J = Character("Jorge")
+define mu = Character("Manule")
 "É no palácio que fora de D. João de Portugal, em Almada; salão antigo, de 
 gosto melancólico e pesado, com grandes retratos de família, muitos de corpo 
 inteiro, bispos, donas, cavaleiros, monges; estão em lugar mais conspícuo, no 
@@ -16,7 +16,7 @@ atualmente  os duques de Cadaval; sobre o escudo, coroa de conde. No fundo
 um reposteiro muito maior e com as mesmas armas sobre as portadas da 
 tribuna, que deita sobre a capela da Senhora da Piedade, na igreja  de S. Paulo 
 dos domínicos de Almada. "
-label Cena 1:
+label Cena1:
     M"(saindo pela porta da esquerda e trazendo pela mão a Telmo, que parece vir de 
     pouca vontade)"
 
@@ -96,7 +96,7 @@ label Cena 1:
 
     tel"O arcebispo, o conde de  Sabugal, e os outros, já vosso tio os trouxe à razão, já os moderou."
 
-    tel"O arcebispo, o conde de  Sabugal, e os outros, já vosso tio os trouxe à razão, já os moderou."~
+    tel"O arcebispo, o conde de  Sabugal, e os outros, já vosso tio os trouxe à razão, já os moderou."
 
     tel"Miguel de Moura é que ainda está renitente; mas há de  passar. Por estes dias fica tudo sossegado."
 
@@ -275,8 +275,10 @@ label Cena 1:
     "Maria olha para Telmo, como quem compreendeu, depois torna a fixar a vista  no retrato: e ambos ficam diante 
     dele como fascinados. No entanto, e às últimas palavras de Maria, um homem embuçado com o chapéu sobre os olhos levanta o reposteiro da direita e vem, 
     pé ante pé, aproximando -se dos dois, que o não sentem"
+
+    jump Cena2
     
-label Cena 2:
+label Cena2:
     mu"Aquele era D. João de Portugal, um honrado fidalgo e um valente cavaleiro."
 
     M"(respondendo sem observar quem lhe fala) Bem mo dizia o coração!"
@@ -363,8 +365,9 @@ label Cena 2:
     "(Beija -a na testa.)"
 
     mu"Telmo, ide ver se chamais meu irmão; dizei -lhe que estou aqui."
+    jump Cena3
 
-label Cena 3:
+label Cena3:
 
     mu"Ora ouve cá, filha."
 
@@ -433,8 +436,9 @@ label Cena 3:
     mu"Mas se ele vivesse. Não existias tu agora, não te tinha eu aqui nos meus braços."
 
     M"(escondendo a cabeça no seio do pai) Ai, meu pai!"
+    jump Cena4
 
-label Cena 4:
+label Cena4:
     J"Ora alvíssaras, minha dona sobrinha."
 
     J"Venha -me já abraçar, senhora D. Maria (Maria beija -lhe o escapulário; e depois abraçam -se)."
@@ -494,8 +498,9 @@ label Cena 4:
     M"O meu querido pai, vamos, vamos."
 
     mu"Veremos o que diz a tua mãe, e como ela est á."
+    jump Cena5
 
-label Cena 5:
+label Cena5:
 
     ma"(correndo a abraçar Manuel de Sousa)Estou boa já, não tenho nada, esposo da minha alma."
 
@@ -671,8 +676,9 @@ label Cena 5:
     mu"Dou licença.  Vai."
 
     "Dou licença.  Vai."
+    jump Cena6
 
-label Cena 6:
+label Cena6:
 
     mu"É preciso deixá -la espairecer, mudar de lugar, distrair -se: aquele sangue está em chama, arde sobre si e consome -se, a não o deixarem correr à 
     vontade."
@@ -698,8 +704,9 @@ label Cena 6:
     mu"Está, está muito velho, coitado!"
 
     mu"Pois que  vá; melhor é."
+    jump Cena7
 
-label Cena 7:
+label Cena7:
     "(MANUEL DE SOUSA, MADALENA, JORGE, MARIA,Entrando com TELMO e DOROTEIA )"
 
     M"Então vamos, meu pai."
@@ -741,8 +748,9 @@ label Cena 7:
 
     "(Abraçam -se outra vez; Maria sai apressadamente, e para a mãe não ver que 
     sai sufocada com choro.)"
+    jump Cena8
 
-label Cena 8:
+label Cena8:
 
     Ma"(seguindo com os olhos a filha, e respondendo a Manuel de Sousa)  Preocupações ! Eu não tenho já preocupações."
 
@@ -793,8 +801,9 @@ label Cena 8:
     mu"Maria já lá vai no cais a esta hora. Adeus! Jorge, não a deixes."
 
     "(Abraçam -se: Madalena vai até fora da porta com ele)."
+    jump Cena9
 
-label Cena 9:
+label Cena9:
 
     J"Eu faço por estar alegre, e queria vê -los contentes a eles."
 
@@ -803,8 +812,9 @@ label Cena 9:
     J"Até meu irmão o desconheço! A todos parece que o coração lhes adivinha desgraça."
 
     J"E eu quase que também já se me pega o mal. Deus seja connosco!"
+    jump Cena10
 
-label Cena 10:
+label Cena10:
 
     "(falando ao bastidor)"
 
@@ -835,4 +845,4 @@ label Cena 10:
     assim que o vi. "
 
     Ma"E quando o vi, hoje, hoje. Foi em tal dia como hoje, D. João de Portugal ainda era vivo!"
-    
+    jump Prelogue

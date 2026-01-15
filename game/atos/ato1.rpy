@@ -33,6 +33,7 @@ label cena1:
     mv "gozar um só momento de toda a imensa felicidade que me dava o seu amor."
     mv "Oh! que amor,que felicidade...que desgraça a minha!"
     "torna a descair em profunda meditação;silêncio breve:"
+    jump cena2
 
 label cena2:
     "Telmo, chegando ao pé de Madalena, que o não sentiu entrar"
@@ -55,7 +56,7 @@ label cena2:
     "madalena, suspira"
     "Eu era uma criança; pouco maior era que Maria."
     "Não, a senhora D. Maria já é mais alta."
-    "É verdade, tem crescido de mais, e de repente, nestes de meses últimos..."~
+    "É verdade, tem crescido de mais, e de repente, nestes de meses últimos..."
     "Então! Tem treze anos feitos, é quase uma senhora, esti u 25 senhora..."
     "Telmo, a parte"
     "Uma senhora, aquela..."
@@ -65,6 +66,7 @@ label cena2:
     "Se sou! Um anjo como aquele..."
     "uma viveza, um espírito...!"
     "e então que coração!"
+    jump cena7
 
 
 # Parte do Afonso (Pág. 79 a 83)
@@ -260,3 +262,4 @@ label cena12: # Manuel de Sousa e criados, Madalena, Maria, Telmo e Jorge (acudi
     mn "Meu pai, nós não fugimos sem vós."
     t "Fujamos! Fujamos!..."
     "Redobram os gritos de fora, ouve-se rebate de sinos, cai o pano."
+    jump Cena1

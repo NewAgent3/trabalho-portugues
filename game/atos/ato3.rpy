@@ -14,7 +14,7 @@ define p = Character("Prior")
 define ma = Character("Maria")
 
 
-label start:
+label Prelogue:
 
     # Scene Prelogue
     scene bg Prelogue
