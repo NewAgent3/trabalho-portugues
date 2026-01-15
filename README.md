@@ -1,4 +1,4 @@
-Trabalho de Português onde quase NADA tá feito XD
+Trabalho de Português onde quase NADA tá feito XD | 
 Ato 1 - 55%
 Ato 2 - 75%
 Ato 3 - 100%
